@@ -20,7 +20,7 @@ class ABS_class(ABC):
 
 # a simple value for inheritance
 characterList = ""
-# a class to create pssword with letters
+# a class to create password with letters
 
 
 class Password_letters(ABS_class):
@@ -41,7 +41,7 @@ class Password_letters(ABS_class):
 generate = Password_letters(characterList)
 print(generate.generate_password)
 
-# a class to create pssword with numbers
+# a class to create password with numbers
 
 
 class Password_numbers(ABS_class):
@@ -62,7 +62,7 @@ class Password_numbers(ABS_class):
 generate = Password_numbers(characterList)
 print(generate.generate_password)
 
-# a class to create pssword with numbers and letters
+# a class to create password with numbers and letters
 
 
 class Password_numbers_letters(ABS_class):
